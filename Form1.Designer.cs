@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtUserName = new TextBox();
+            label2 = new Label();
+            txtmatkhau = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -41,19 +43,38 @@
             label1.TabIndex = 0;
             label1.Text = "username";
             // 
-            // textBox1
+            // txtUserName
             // 
-            textBox1.Location = new Point(251, 38);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 1;
+            txtUserName.Location = new Point(251, 38);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(125, 27);
+            txtUserName.TabIndex = 1;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(137, 108);
+            label2.Name = "label2";
+            label2.Size = new Size(72, 20);
+            label2.TabIndex = 2;
+            label2.Text = "password";
+            label2.Click += label2_Click;
+            // 
+            // txtmatkhau
+            // 
+            txtmatkhau.Location = new Point(251, 108);
+            txtmatkhau.Name = "txtmatkhau";
+            txtmatkhau.Size = new Size(125, 27);
+            txtmatkhau.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
+            Controls.Add(txtmatkhau);
+            Controls.Add(label2);
+            Controls.Add(txtUserName);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -64,6 +85,8 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtUserName;
+        private Label label2;
+        private TextBox txtmatkhau;
     }
 }

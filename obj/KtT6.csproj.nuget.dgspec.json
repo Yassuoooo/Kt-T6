@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kidla\\OneDrive\\Máy tính\\New folder\\Kt-T6\\KtT6.csproj": {}
+    "E:\\KtT6\\Kt T6 -2\\Kt-T6\\KtT6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kidla\\OneDrive\\Máy tính\\New folder\\Kt-T6\\KtT6.csproj": {
+    "E:\\KtT6\\Kt T6 -2\\Kt-T6\\KtT6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kidla\\OneDrive\\Máy tính\\New folder\\Kt-T6\\KtT6.csproj",
+        "projectUniqueName": "E:\\KtT6\\Kt T6 -2\\Kt-T6\\KtT6.csproj",
         "projectName": "KtT6",
-        "projectPath": "C:\\Users\\kidla\\OneDrive\\Máy tính\\New folder\\Kt-T6\\KtT6.csproj",
-        "packagesPath": "C:\\Users\\kidla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kidla\\OneDrive\\Máy tính\\New folder\\Kt-T6\\obj\\",
+        "projectPath": "E:\\KtT6\\Kt T6 -2\\Kt-T6\\KtT6.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\KtT6\\Kt T6 -2\\Kt-T6\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kidla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +37,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +66,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
