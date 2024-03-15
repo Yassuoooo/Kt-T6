@@ -31,7 +31,8 @@
             label1 = new Label();
             txtUserName = new TextBox();
             label2 = new Label();
-            txtmatkhau = new TextBox();
+            txtpassword = new TextBox();
+            btnlogin = new Button();
             SuspendLayout();
             // 
             // label1
@@ -55,24 +56,34 @@
             label2.AutoSize = true;
             label2.Location = new Point(137, 108);
             label2.Name = "label2";
-            label2.Size = new Size(72, 20);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 2;
-            label2.Text = "password";
+            label2.Text = "Mật khẩu";
             label2.Click += label2_Click;
             // 
-            // txtmatkhau
+            // txtpassword
             // 
-            txtmatkhau.Location = new Point(251, 108);
-            txtmatkhau.Name = "txtmatkhau";
-            txtmatkhau.Size = new Size(125, 27);
-            txtmatkhau.TabIndex = 3;
+            txtpassword.Location = new Point(251, 108);
+            txtpassword.Name = "txtpassword";
+            txtpassword.Size = new Size(125, 27);
+            txtpassword.TabIndex = 3;
+            // 
+            // btnlogin
+            // 
+            btnlogin.Location = new Point(219, 170);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(94, 29);
+            btnlogin.TabIndex = 4;
+            btnlogin.Text = "btnlogin";
+            btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(txtmatkhau);
+            Controls.Add(btnlogin);
+            Controls.Add(txtpassword);
             Controls.Add(label2);
             Controls.Add(txtUserName);
             Controls.Add(label1);
@@ -87,6 +98,7 @@
         private Label label1;
         private TextBox txtUserName;
         private Label label2;
-        private TextBox txtmatkhau;
+        private TextBox txtpassword;
+        private Button btnlogin;
     }
 }
